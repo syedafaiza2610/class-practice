@@ -278,9 +278,39 @@
     //         userInput + "x" + i +"="+ userInput*i, "<br>"
     //     )
     //     }
+        // var cities = ["dubai","ny","chicago","LA","mexico","barcelona","houstan","karachi"];
+    //     var cityToSearch ="karachi";
+    //     for(let i =0; i<= cities.length-1; i++)
+    //     {if
+    //         (
+    //         cities[i]=== cityToSearch
+    //     )
+    //     {
+    //         alert("City Karachi Is Clean")
+    //     break;
+    // }
 
-    
+        // else{
+        //     alert("Karachi Not Found")
+        // }
+    // }
+        var cities = ["dubai","ny","chicago","LA","mexico","barcelona","houstan","karachi"];
+        var cityToSearch = prompt("Enter Your City");
+        var match = false;
+        for(let i = 0; i< cities.length; i++)
+        {
+            if(cities[i]===cityToSearch){
+                match = true
+                alert("city found")
+                break;
+            }
+        }
+        if (match == false){
+            alert("city not found")
+        }
+         
 
+      
 
 
 
