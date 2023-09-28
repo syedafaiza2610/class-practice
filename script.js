@@ -294,22 +294,51 @@
         //     alert("Karachi Not Found")
         // }
     // }
-        var cities = ["dubai","ny","chicago","LA","mexico","barcelona","houstan","karachi"];
-        var cityToSearch = prompt("Enter Your City");
-        var match = false;
-        for(let i = 0; i< cities.length; i++)
-        {
-            if(cities[i]===cityToSearch){
-                match = true
-                alert("city found")
-                break;
-            }
-        }
-        if (match == false){
-            alert("city not found")
-        }
+        // var cities = ["dubai","ny","chicago","LA","mexico","barcelona","houstan","karachi"];
+        // var cityToSearch = prompt("Enter Your City");
+        // var match = false;
+        // for(let i = 0; i< cities.length; i++)
+        // {
+        //     if(cities[i]===cityToSearch){
+        //         match = true
+        //         alert("city found")
+        //         break;
+        //     }
+        // }
+        // if (match == false){
+        //     alert("city not found")
+        // }
          
+//         var table = +prompt('Enter table number :', 2);
+// var tableLenght = +prompt('Enter length of table :', 10);
+// for (let i = 1; i <= tableLenght; i = i + 2) {
+//     var element =table*i;
+//     // console.log(`${table} * ${i} = ${element}`)
+//     console.log(table + "*" + i + "=", table*i)
+// }
 
+// // odd number 1- 100
+
+// for(let i = 1; i <= 100; i = i+2){
+//     console.log(i)
+// }
+// // even number 1- 100
+
+// for(let i = 2; i <= 100; i = i+2){
+//     console.log(i)
+// }
+// let num = [];
+// for(let i = 1; i <= 10; i++){
+//    num.push(i)
+// }
+// console.log(num)
+ var students = ["Faiza","Saba","Hira","Zara"];
+ var progress = ["beginner","intermediate","advance","pro"];
+ for(let i = 0; i < students.length; i++){
+    for(let j = 0; j < progress.length; j++ ){
+        console.log(students[i]," ",progress[j])
+    }
+ }
       
 
 
