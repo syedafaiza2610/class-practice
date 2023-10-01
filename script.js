@@ -391,13 +391,12 @@
 // console.log("the given array has number"+ count++)
 // else console.log("There is no number in this array")
 
-// var students = ["Faiza","Saba","Hira","Zara"];
-//  var greet = ["Good Morning"];
-//  for(let i = 0; i < students.length; i++){
-//     for(let j = 0; j < greet.length; j++ ){
-//         console.log(students[i]," ",greet[j])
-//     }
-//  }
+var students = ["Faiza","Saba","Hira","Zara"];
+ for(let i = 0; i < students.length; i++){
+{
+        console.log("Good Morning"+" "+ students[i])
+    }
+ }
 
 
 
