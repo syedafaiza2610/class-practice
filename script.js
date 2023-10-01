@@ -332,14 +332,72 @@
 //    num.push(i)
 // }
 // console.log(num)
- var students = ["Faiza","Saba","Hira","Zara"];
- var progress = ["beginner","intermediate","advance","pro"];
- for(let i = 0; i < students.length; i++){
-    for(let j = 0; j < progress.length; j++ ){
-        console.log(students[i]," ",progress[j])
-    }
- }
+//  var students = ["Faiza","Saba","Hira","Zara"];
+//  var progress = ["beginner","intermediate","advance","pro"];
+//  for(let i = 0; i < students.length; i++){
+//     for(let j = 0; j < progress.length; j++ ){
+//         console.log(students[i]," ",progress[j])
+//     }
+//  }
       
+
+// var student = ["Faiza","Saba","Hira","Zara","Ali"];
+// console.log(student)
+
+// var arr = [1,3,'a','b','f','a'];
+// let count = 0;
+//  for(let i = 0; i < arr.length; i++)
+//  {if (arr[i] === "a")
+// {count++}
+// }
+// console.log("count of 'a':" + count)
+
+// var students = ["Faiza","Saba","Hira","Zara"];
+//  var greet = ["Good Morning"];
+//  for(let i = 0; i < students.length; i++){
+//     for(let j = 0; j < greet.length; j++ ){
+//         console.log(students[i]," ",greet[j])
+//     }
+//  }
+ 
+// const arr = [1,2,3,4,5,5,5,5,6];
+// let count = 0;
+// for(let i = 0; i<arr.length; i++)
+// {count++
+// }
+//count = count +1
+//count += count
+// console.log("the total elements in array"+" " + count);
+//or
+// for(const item in arr){count++}
+// console.log("the total elements in array"+" " + count);
+
+
+// var arr = ["a",2,4,"b","a","f","a","a"];
+// let count = 0;
+// for (let i=0; i < arr.length; i++)
+// {if(arr[i]==="a")
+// {count++}
+// }
+// console.log("count of a" + " " + count )
+
+// var arr = ["a",3,4,"b","a","f","a","a"];
+// let count = 0;
+// for (let i=0; i < arr.length; i++)
+// {if(typeof arr[i]=== "number" )
+// {count++}
+// }
+// if(count>0)
+// console.log("the given array has number"+ count++)
+// else console.log("There is no number in this array")
+
+// var students = ["Faiza","Saba","Hira","Zara"];
+//  var greet = ["Good Morning"];
+//  for(let i = 0; i < students.length; i++){
+//     for(let j = 0; j < greet.length; j++ ){
+//         console.log(students[i]," ",greet[j])
+//     }
+//  }
 
 
 
