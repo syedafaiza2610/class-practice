@@ -391,13 +391,29 @@
 // console.log("the given array has number"+ count++)
 // else console.log("There is no number in this array")
 
-var students = ["Faiza","Saba","Hira","Zara"];
- for(let i = 0; i < students.length; i++){
-{
-        console.log("Good Morning"+" "+ students[i])
-    }
- }
+// var students = ["Faiza","Saba","Hira","Zara"];
+//  for(let i = 0; i < students.length; i++){
+// {
+//         console.log("Good Morning"+" "+ students[i])
+//     }
+//  }
+//   const arr=[2,6,1];
+//   sum=0;
+//   for (let i = 0; i  < arr.length; i++) {
+//     sum +=arr[i]
+//   }
+//     console.log("sum of array is "+ sum)
+  
+    var price = [500,50,200];
+    increasedPrice = [];
+    console.log("original price" , price)
 
+    for (let i = 0; i < price.length; i++) {
+       var percent = price[i]*10/100
+       price[i] = percent + price[i]
+
+    }
+     console.log("price after 10% increament" , price)
 
 
 
