@@ -404,16 +404,58 @@
 //   }
 //     console.log("sum of array is "+ sum)
   
-    var price = [500,50,200];
-    increasedPrice = [];
-    console.log("original price" , price)
+    // var price = [500,50,200];
+    // increasedPrice = [];
+    // console.log("original price" , price)
 
-    for (let i = 0; i < price.length; i++) {
-       var percent = price[i]*10/100
-       price[i] = percent + price[i]
+    // for (let i = 0; i < price.length; i++) {
+    //    var percent = price[i]*10/100
+    //    price[i] = percent + price[i]
 
-    }
-     console.log("price after 10% increament" , price)
+    // }
+    //  console.log("price after 10% increament" , price)
+
+      //There are two types of database
+    //   relational 
+    //   irrerelational 
+      //string methods,slice,splice,charAt,indexof,lastindexof
+    //
+    var sentence = "Wars are not good.The second world war should not happen";
+    var given = "The second world war";
+    var toChange ="Second world war";
+    var newSentence = "";
+    var add = sentence.indexOf(given);
+    console.log("🚀 ~ file: script.js:428 ~ add:", add)
+
+    
+
+    
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
