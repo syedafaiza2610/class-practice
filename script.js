@@ -420,12 +420,12 @@
     //   irrerelational 
       //string methods,slice,splice,charAt,indexof,lastindexof
     //
-    var sentence = "Wars are not good.The second world war should not happen";
-    var given = "The second world war";
-    var toChange ="Second world war";
-    var newSentence = "";
-    var add = sentence.indexOf(given);
-    console.log("🚀 ~ file: script.js:428 ~ add:", add)
+    // var sentence = "Wars are not good.The second world war should not happen";
+    // var given = "The second world war";
+    // var toChange ="Second world war";
+    // var newSentence = "";
+    // var add = sentence.indexOf(given);
+    // console.log("🚀 ~ file: script.js:428 ~ add:", add)
 
 
 //     string methods, slice , splice, charAt, indexOf, lastIndexOf
@@ -506,7 +506,15 @@
 
 
 
-
+// document.write(Math.floor(0.9))//0
+// document.write(Math.floor(1.89))//1
+// document.write(Math.floor(2.0))//2
+// document.write(Math.floor(3.001))//3
+// dice 1 - 6 0.0 - 0.9
+// document.write(Math.ceil(Math.random()*6))
+// document.write("<br/>")
+// document.write(Math.floor((Math.random()*6) + 1))
+// document.write(2.904893.toFixed(3))
 
 
 
