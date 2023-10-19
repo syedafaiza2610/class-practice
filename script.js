@@ -517,8 +517,24 @@
 // document.write(2.904893.toFixed(3))
 
 
+// var arr = [450,320,799,503];
+// arr.sort();
+// arr.reverse();
+// var arr2 = arr.join(' ');
+// document.write(arr2);
 
 
+// for(let i = 1 ; i<=100; i=i+10){
+ 
+//    for(let j=i; j< i+10; j++){
+//     document.write(j+" ")
+//    }
+//    document.write("<br>")
+// }
+// for (let i = 1; i <=100; i+=2) {
+//     document.write(i + " ")
+    
+// }
 
 
 
