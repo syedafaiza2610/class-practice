@@ -81,8 +81,15 @@
 // }
 
 
+// var arr =[];
+// arr[0] = ["a"];
+// arr[1] = ["b"];
+// let b = arr.join();
+// document.write(b)
 
-
+// var a = ["syeda","faiza","naqi"];
+// let b = a.join(" ");
+// document.write(b);
 
 
 
