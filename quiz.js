@@ -46,6 +46,58 @@
 // console.log(date.setDate(1));
 
 
+// function add() {
+//     document.write(2+5)
+// }
+//  var add2 = function() {
+//     document.write(2+5)
+//  }
+
+// function addNum(a,b) {
+//     var sum = a + b ;
+//     return sum;
+// }
+// document.write(addNum(12,45))
+// function name(params) {
+    
+// }
+// function square(n) {
+//     return n+n
+// }
+// function addSquare(a,b) {
+//     return square(a) + square(b)
+// }
+// var res = addSquare(25,25)
+// console.log(res)
+
+
+
+// var age = 12;
+// switch (true) {
+//     case age < 18:
+//     alert("too young")
+//          break;
+//          case age == 18:
+//             alert("OK")
+//                  break;
+//                  case age == 18:
+//                     alert("Old Enough")
+//                          break;
+        
+//     default:
+//         alert(" ")
+//         break;
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
