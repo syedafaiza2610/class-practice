@@ -93,7 +93,17 @@
 
 
 
+// var x = 10;
+// function foo(x) {
+//     var x = 20;
+//     console.log(x)
+// }
+// foo(x)
 
+// var a = "hello world!"
+// var b = a.slice(5);
+// var c = a.indexOf(" ");
+// console.log(c)
 
 
 

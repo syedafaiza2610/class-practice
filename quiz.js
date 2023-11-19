@@ -70,8 +70,26 @@
 // var res = addSquare(25,25)
 // console.log(res)
 
-
-
+// const d1 = new Date(2020, 1, 1)
+// console.log(d1)
+// const d3 = Date('Thu, 01 Jan 1970 00:00:00 GMT')
+// console.log(d3)
+// const d1 = new Date('2020-01-01')
+// const d2 = new Date('2020-01-01T00:00')
+// console.log(d1.getFullYear(), d2.getFullYear())
+// const d = new Date(2020, 1, 1)
+// d.setDate(100)
+// console.log(d)
+// const d = new Date(2020, 0, 1)
+// d.setDate(0)
+// console.log(d)
+// const d = new Date(Date.UTC(2020, 0, 1))
+// console.log(d.getTimezoneOffset())
+// var date = new Date(Date.UTC(2020, 0, 1))
+// console.log(date.getUTCFullYear(), date.getFullYear())
+// const d = new Date(2020, 0, 1)
+// d.setDate(1)
+// console.log(d)
 // var age = 12;
 // switch (true) {
 //     case age < 18:
@@ -89,7 +107,16 @@
 //         break;
 // }
 
+// var today = new Date();
+// var a = today.getFullYear();
+// document.write(a)
 
+// var a = today.getMilliseconds();
+// var next = new Date('January 1,1970');
+//  var b = next.getMilliseconds();
+// var res =  a-b;
+// var diff = res / (1000);
+// console.log(
 
 
 
